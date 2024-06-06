@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap");
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    /*means width = 100% of window height*/
+    overflow: hidden;
+    /*anything below window height will be clipped*/
+}
+
+.parallax {
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: 0.45s cubic-bezier(.2, .49, .32, .99)
+}
+
+
+/* .bg-img {
+    position: absolute;
+    width: 175%;
+    top: 1.8%;
+    left: 50%;
+    z-index: 1;
+} */
+
+
+/*fixed*/
+
+.fog-7 {
+    position: absolute;
+    z-index: 2;
+    width: 1900px;
+    top: calc(50% - 100px);
+    left: calc(50% + 300px);
+}
+
+.mountain-10 {
+    /*backmost*/
+    position: absolute;
+    z-index: 3;
+    width: 892px;
+    top: calc(50% + 69px);
+    left: calc(50% + 230px);
+}
+
+
+/*fixed*/
+
+.fog-6 {
+    position: absolute;
+    z-index: 4;
+    width: 3000px;
+    top: calc(50% + 85px);
+    left: calc(50% + 10px);
+}
+
+.mountain-9 {
+    position: absolute;
+    z-index: 5;
+    width: 520px;
+    top: calc(50% + 210px);
+    left: calc(50% - 650px);
+}
+
+.mountain-8 {
+    position: absolute;
+    z-index: 6;
+    width: 995px;
+    top: calc(50% + 140px);
+    left: calc(50% - 202px);
+}
+
+.fog-5 {
+    position: absolute;
+    z-index: 7;
+    width: 450px;
+    top: calc(50% + 160px);
+    left: calc(50% + 20px);
+}
+
+.mountain-7 {
+    position: absolute;
+    z-index: 8;
+    width: 638px;
+    top: calc(50% + 225px);
+    left: calc(50% + 305px);
+}
+
+.text {
+    position: absolute;
+    z-index: 9;
+    top: calc(50% - 130px);
+    left: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    pointer-events: auto;
+    color: #fff;
+}
+
+
+/* .gradient-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.827), rgba(199, 187, 187, 0.877));
+    position: relative;
+} */
+
+.text h2 {
+    font-weight: 100;
+    font-size: 5.6rem;
+    line-height: 0.88;
+}
+
+.text h1 {
+    font-weight: 800;
+    font-size: 8.5rem;
+    line-height: 0.88;
+}
+
+.mountain-6 {
+    position: absolute;
+    z-index: 10;
+    top: calc(50% + 120px);
+    width: 408px;
+    left: calc(50% + 590px);
+}
+
+.fog-4 {
+    position: absolute;
+    z-index: 11;
+    top: calc(50% + 273px);
+    left: calc(50% - 60px);
+    width: 650px;
+}
+
+.mountain-5 {
+    position: absolute;
+    z-index: 12;
+    top: calc(50% + 390px);
+    width: 630px;
+    left: calc(50% + 30px);
+}
+
+
+/*fixed*/
+
+.fog-3 {
+    position: absolute;
+    z-index: 13;
+    top: calc(50% + 200px);
+    left: calc(50% - 15px);
+    width: 1600px;
+}
+
+.mountain-4 {
+    /*left 2nd most*/
+    position: absolute;
+    z-index: 14;
+    top: calc(50% + 268px);
+    width: 880px;
+    left: calc(50% - 481.5px);
+}
+
+.mountain-3 {
+    /*right most*/
+    position: absolute;
+    z-index: 15;
+    top: calc(50% + 180px);
+    left: calc(50% + 880px);
+    width: 419px;
+}
+
+.fog-2 {
+    position: absolute;
+    z-index: 16;
+    top: calc(50% + 210px);
+    left: calc(50% - 30px);
+    width: 1418px;
+}
+
+.mountain-2 {
+    /*right front 2nd*/
+    position: absolute;
+    z-index: 17;
+    top: calc(50% + 270px);
+    left: calc(50% + 412px);
+    width: 625px;
+}
+
+
+/*fixed*/
+
+.mountain-1 {
+    /*left most*/
+    position: absolute;
+    z-index: 18;
+    top: calc(50% + 85px);
+    left: calc(50% - 870px);
+    width: 580px;
+}
+
+
+/*fixed*/
+
+.sun-rays {
+    position: absolute;
+    z-index: 19;
+    top: 0;
+    right: 0;
+    width: 595px;
+    pointer-events: none;
+}
+
+.black-shadow {
+    position: absolute;
+    z-index: 20;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.fog-1 {
+    position: absolute;
+    z-index: 21;
+    width: 2300px;
+    top: calc(100% - 255px);
+    left: 50%;
+}
+
+
+/*fixed*/
+
+.vignette {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 81, 0);
+    background: radial-gradient( ellipse at center, rgba(255, 208, 53, 0) 65%, rgba(189, 218, 61, 0.7));
+    pointer-events: none;
+}
