@@ -262,6 +262,10 @@
         background-color: var(--title-color);
         border-radius: 50%;
     }
+
+    .title{
+        visibility: inherit;
+    }
     /*=============== HOME ===============*/
     
     .home__content {
@@ -803,6 +807,7 @@
     }
     
     @media screen and (min-width: 767px) {
+        
         body {
             margin: 0;
         }
@@ -897,15 +902,16 @@
         }
         .about__description2{
             
-            width: 270px;
-           
+            visibility: visible;
            
         }
+
     }
     /* For large devices */
     
     @media screen and (min-width: 1002px) {
         .container {
+
             margin-left: auto;
             margin-right: auto;
         }
@@ -946,6 +952,7 @@
             padding-right: 2rem;
         }
         .category__container {
+            
             column-gap: 8rem;
         }
         .category__img {
