@@ -2,7 +2,7 @@
 main {
     position: relative;
     height: 100vh;
-    width: 100vw;
+    width: 90vw;
     /*means width = 100% of window height*/
     overflow: hidden;
     /*anything below window height will be clipped*/
